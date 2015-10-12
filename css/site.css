@@ -9,6 +9,18 @@
 .banner li { list-style: none; }
 .banner ul li { float: left; }
 
+a.light {
+    color: #fff;
+    -webkit-transition: all .35s;
+    -moz-transition: all .35s;
+    transition: all .35s;
+}
+
+a.light:hover,
+a.light:focus {
+    color: blue;
+}
+
 .timeline {
     position: relative;
     padding: 0;
