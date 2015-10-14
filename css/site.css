@@ -222,7 +222,7 @@ a.light:focus {
 }
 
 .service-list {
-    list-style: none;
+    list-style: disc;
     line-height: 200%;
     font-size: 16px;
 }
