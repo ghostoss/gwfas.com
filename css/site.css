@@ -1,5 +1,5 @@
 /*!
- * Start Bootstrap - Creative Bootstrap Theme (http://startbootstrap.com)
+ * GW Financial Advisory Services Limited home page (http://www.gwfas.com)
  * Code licensed under the Apache License v2.0.
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
@@ -8,6 +8,18 @@
 .banner { position: relative; overflow: auto; }
 .banner li { list-style: none; }
 .banner ul li { float: left; }
+
+a.light {
+    color: #fff;
+    -webkit-transition: all .35s;
+    -moz-transition: all .35s;
+    transition: all .35s;
+}
+
+a.light:hover,
+a.light:focus {
+    color: blue;
+}
 
 .timeline {
     position: relative;
@@ -209,4 +221,17 @@
     }
 }
 
+.service-list {
+    list-style: disc;
+    line-height: 200%;
+    font-size: 16px;
+}
 
+.service-list-lv2 {
+    line-height: 200%;
+    font-size: 16px;
+}
+
+.footer {
+    margin-bottom: 10px;
+}
